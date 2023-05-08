@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW50_51</title>
+  </head>
+  <body></body>
+  <script>
+    
+    function operationAplusA(a) {
+      alert((a += a) + " "+"The entered number was doubled" +" Do you want more?"+" " +"Press the button!");
+    }
+    function operationAplus2(a) {
+      alert((a += 2) + " "+ " number 2 is added to the entered number." +" Do you want more?"+" "+" Press the button!");
+    }
+    function operationAdivide_into3(a) {
+      alert((a /= 3) + " "+ "The entered number is divided by 3." +" Do you want more?"+" "+" Press the button!");
+    }
+    function operationAminus4(a) {
+      alert((a %= 5) + " "+"It is the remainder after dividing by 5." + " Do you want more?"+" "+" Press the button!");
+    }
+    function operationAremainder_from5(a) {
+      alert((a -= 4)+" "+ "From the entered number minus 4  ."+" It was the last operation ! Good By!");
+    }
+    let a=parseFloat(prompt("Enter any number"));
+    
+    operationAplusA(a);
+    operationAplus2(a);
+    operationAdivide_into3(a);
+    operationAminus4(a);
+    operationAremainder_from5(a);
+  </script>
+</html>
